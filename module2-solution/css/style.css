@@ -22,27 +22,26 @@ h2 {
 /* mobile */
 @media(max-width: 767px) {
 
-    .box {
-        width: calc(100% - 10px);
+    .box, .box_1 {
+        width: calc(100% - 44px);
         padding: 10px;
         margin: 10px;
 
-    }
-    
+    } 
 }
 
 /* tablet */
 @media(min-width: 768px) and (max-width: 991px) {
 
     .box_1 {
-        width: calc(50% - 30px);
-        padding:5px;
+        width: calc(50% - 44px);
+        padding:10px;
         margin: 10px;
     }
     .box_2 {
-        width: calc(100% - 20px);
+        width: calc(100% - 44px);
         padding:10px;
-        margin: 10px;
+        margin:10px;
 
     }
 
@@ -52,7 +51,7 @@ h2 {
 @media(min-width: 992px) {
 
     .box {
-        width: calc(33% - 30px);
+        width: calc(33.33% - 34px);
         margin: 10px;
         padding: 5px;
     }
