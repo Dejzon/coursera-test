@@ -1,0 +1,71 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: darkolivegreen;
+    margin-bottom: 10px;
+}
+
+
+.navbar-brand a:hover, .navbar-brand a:active, .navbar-brand a:visited { 
+    color: rgb(216, 196, 147);
+    text-decoration: none;
+    text-transform: none;
+}
+.navbar-brand a h1:hover {
+    font-size: 2.54rem;
+}
+
+[type = button] {
+    font-size: 2.5rem;
+    background-color: darkolivegreen;
+    border: none;
+}
+
+[type = button]:focus {
+    outline:0;
+}
+
+[type = button]:hover {
+    font-size:2.6rem;
+}
+
+.fa-bars {
+    color: #D8C593;
+}
+
+.dropdown-menu {
+    background-color: #eedbc0;
+    color: #969e28;
+    padding: 0;
+}
+.dropdown-menu li {
+    border-bottom: 1px solid #969e28;
+} 
+.dropdown-menu li:hover {
+    background-color: #eee5d9
+} 
+
+.dropdown-menu li a:visited, .dropdown-menu li a:hover  {
+    color: #969e28;
+    text-decoration: none;
+} 
+
+h2 {
+    margin-bottom: 10px;
+    color:#262524;
+}
+
+.container  {
+    margin: 10px auto;
+    background-color: #2625241e ;
+    border: 1px solid #2625241e;
+}
+
+.container a:hover, .container a:visited {
+    
+    color:  darkolivegreen;
+}
+
+
