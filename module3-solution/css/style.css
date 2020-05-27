@@ -8,7 +8,7 @@ html {
 }
 
 
-.navbar-brand a:hover, .navbar-brand a:active, .navbar-brand a:visited { 
+.navbar-brand a:hover, .navbar-brand a:active, .navbar-brand a:visited, .navbar-brand a:link { 
     color: rgb(216, 196, 147);
     text-decoration: none;
     text-transform: none;
@@ -47,7 +47,7 @@ html {
     background-color: #eee5d9
 } 
 
-.dropdown-menu li a:visited, .dropdown-menu li a:hover  {
+.dropdown-menu li a:visited, .dropdown-menu li a:hover, .dropdown-menu li a:link  {
     color: #969e28;
     text-decoration: none;
 } 
@@ -63,7 +63,7 @@ h2 {
     border: 1px solid #2625241e;
 }
 
-.container a:hover, .container a:visited {
+.container a:hover, .container a:visited, .container a:link {
     
     color:  darkolivegreen;
 }
